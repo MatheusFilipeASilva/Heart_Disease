@@ -16,3 +16,14 @@ We executed a grid search. The best run had the following parameters:
 
 Best trial: 25. Best value: 0.955495:  87%|████████▋ | 26/30 [8:32:36<1:32:44, 1391.04s/it]
 [I 2026-02-17 19:19:58,582] Trial 25 finished with value: 0.9554952344394854 and parameters: {'iterations': 1233, 'depth': 5, 'learning_rate': 0.05563228358640898, 'l2_leaf_reg': 1.2388924496891942, 'border_count': 157}. Best is trial 25 with value: 0.9554952344394854.
+
+<br>
+
+We've sent our second submission, and we are now on the top 50%+ on Kaggle Competition!
+
+<br>
+
+We've runned GridSearch with Optuna for our MLPClassifier model. We got the following best set of hyperparameters:
+<br>
+
+#### [I 2026-02-18 15:01:16,452] Trial 22 finished with value: 0.9533291427951834 and parameters: {'hidden_layer_sizes': (128,), 'alpha': 5.894589851301599e-05, 'learning_rate_init': 0.0007594934857959463, 'activation': 'relu'}. Best is trial 22 with value: 0.9533291427951834.
