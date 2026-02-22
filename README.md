@@ -35,3 +35,5 @@ We trained the MLPCtunned model, and used KFold to generate oof_preds. The oof_p
 #### We trained the LogisticRegression tunned model, at Logistic_Regression_tunned.ipynb, we've obtained the following score and best params:
 Best score: 0.9526825664593407
 Best params: {'C': 0.061907906899253747, 'penalty': 'l1', 'solver': 'liblinear'}
+<br>
+As oof_preds para os modelos logreg, CBC e MLPC foram obtidas, e estão em oof_logreg.npy, oof_mlpc_pred.npy e oof_preds_catboostclassifier.npy.
